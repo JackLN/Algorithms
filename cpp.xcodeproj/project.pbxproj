@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		352B484C1B74AA61003F7AB1 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 352B484B1B74AA61003F7AB1 /* main.cpp */; };
 		352B48591B77A4DD003F7AB1 /* SLList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 352B48571B77A4DD003F7AB1 /* SLList.cpp */; };
+		352B485C1B7B205A003F7AB1 /* DLList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 352B485A1B7B205A003F7AB1 /* DLList.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -30,6 +31,8 @@
 		352B48551B779FD2003F7AB1 /* defaultCon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = defaultCon.h; path = first/defaultCon.h; sourceTree = "<group>"; };
 		352B48571B77A4DD003F7AB1 /* SLList.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SLList.cpp; path = linklist/SLList.cpp; sourceTree = "<group>"; };
 		352B48581B77A4DD003F7AB1 /* SLList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SLList.h; path = linklist/SLList.h; sourceTree = "<group>"; };
+		352B485A1B7B205A003F7AB1 /* DLList.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = DLList.cpp; path = linklist/DLList.cpp; sourceTree = "<group>"; };
+		352B485B1B7B205A003F7AB1 /* DLList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DLList.h; path = linklist/DLList.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +86,8 @@
 			children = (
 				352B48571B77A4DD003F7AB1 /* SLList.cpp */,
 				352B48581B77A4DD003F7AB1 /* SLList.h */,
+				352B485A1B7B205A003F7AB1 /* DLList.cpp */,
+				352B485B1B7B205A003F7AB1 /* DLList.h */,
 			);
 			name = linklist;
 			sourceTree = "<group>";
@@ -143,6 +148,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				352B485C1B7B205A003F7AB1 /* DLList.cpp in Sources */,
 				352B48591B77A4DD003F7AB1 /* SLList.cpp in Sources */,
 				352B484C1B74AA61003F7AB1 /* main.cpp in Sources */,
 			);

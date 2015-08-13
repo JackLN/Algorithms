@@ -10,6 +10,7 @@
 		352B484C1B74AA61003F7AB1 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 352B484B1B74AA61003F7AB1 /* main.cpp */; };
 		352B48591B77A4DD003F7AB1 /* SLList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 352B48571B77A4DD003F7AB1 /* SLList.cpp */; };
 		352B485C1B7B205A003F7AB1 /* DLList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 352B485A1B7B205A003F7AB1 /* DLList.cpp */; };
+		352B48601B7D2433003F7AB1 /* ArrayQueue.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 352B485F1B7D2433003F7AB1 /* ArrayQueue.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -33,6 +34,9 @@
 		352B48581B77A4DD003F7AB1 /* SLList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SLList.h; path = linklist/SLList.h; sourceTree = "<group>"; };
 		352B485A1B7B205A003F7AB1 /* DLList.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = DLList.cpp; path = linklist/DLList.cpp; sourceTree = "<group>"; };
 		352B485B1B7B205A003F7AB1 /* DLList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DLList.h; path = linklist/DLList.h; sourceTree = "<group>"; };
+		352B485E1B7D22D6003F7AB1 /* ArrayQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ArrayQueue.h; path = queue/ArrayQueue.h; sourceTree = "<group>"; };
+		352B485F1B7D2433003F7AB1 /* ArrayQueue.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ArrayQueue.cpp; path = queue/ArrayQueue.cpp; sourceTree = "<group>"; };
+		352B48621B7D28CB003F7AB1 /* Queue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Queue.h; path = queue/Queue.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +69,7 @@
 		352B484A1B74AA61003F7AB1 /* cpp */ = {
 			isa = PBXGroup;
 			children = (
+				352B485D1B7D22B3003F7AB1 /* queue */,
 				352B48561B77A1E2003F7AB1 /* linklist */,
 				352B48521B74F007003F7AB1 /* first */,
 				352B484B1B74AA61003F7AB1 /* main.cpp */,
@@ -90,6 +95,16 @@
 				352B485B1B7B205A003F7AB1 /* DLList.h */,
 			);
 			name = linklist;
+			sourceTree = "<group>";
+		};
+		352B485D1B7D22B3003F7AB1 /* queue */ = {
+			isa = PBXGroup;
+			children = (
+				352B485E1B7D22D6003F7AB1 /* ArrayQueue.h */,
+				352B485F1B7D2433003F7AB1 /* ArrayQueue.cpp */,
+				352B48621B7D28CB003F7AB1 /* Queue.h */,
+			);
+			name = queue;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,6 +166,7 @@
 				352B485C1B7B205A003F7AB1 /* DLList.cpp in Sources */,
 				352B48591B77A4DD003F7AB1 /* SLList.cpp in Sources */,
 				352B484C1B74AA61003F7AB1 /* main.cpp in Sources */,
+				352B48601B7D2433003F7AB1 /* ArrayQueue.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -8,11 +8,14 @@
 
 #include <iostream>
 
+
 #include "first/first.h"
+#include "test.h"
+#include "../questions/Coupons.h"
 
 int main(int argc, const char * argv[]) {
     
-    start();
+    cout << Coupons(6) << endl;
     
     return 0;
 }

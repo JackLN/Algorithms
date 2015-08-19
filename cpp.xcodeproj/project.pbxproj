@@ -37,6 +37,8 @@
 		352B485E1B7D22D6003F7AB1 /* ArrayQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ArrayQueue.h; path = queue/ArrayQueue.h; sourceTree = "<group>"; };
 		352B485F1B7D2433003F7AB1 /* ArrayQueue.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ArrayQueue.cpp; path = queue/ArrayQueue.cpp; sourceTree = "<group>"; };
 		352B48621B7D28CB003F7AB1 /* Queue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Queue.h; path = queue/Queue.h; sourceTree = "<group>"; };
+		352B48661B835E5B003F7AB1 /* test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = test.h; sourceTree = "<group>"; };
+		352B48691B84783E003F7AB1 /* Coupons.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Coupons.h; path = questions/Coupons.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 		352B483F1B74AA61003F7AB1 = {
 			isa = PBXGroup;
 			children = (
+				352B48671B8477DE003F7AB1 /* questions */,
 				352B484A1B74AA61003F7AB1 /* cpp */,
 				352B48491B74AA61003F7AB1 /* Products */,
 			);
@@ -73,6 +76,7 @@
 				352B48561B77A1E2003F7AB1 /* linklist */,
 				352B48521B74F007003F7AB1 /* first */,
 				352B484B1B74AA61003F7AB1 /* main.cpp */,
+				352B48661B835E5B003F7AB1 /* test.h */,
 			);
 			path = cpp;
 			sourceTree = "<group>";
@@ -105,6 +109,14 @@
 				352B48621B7D28CB003F7AB1 /* Queue.h */,
 			);
 			name = queue;
+			sourceTree = "<group>";
+		};
+		352B48671B8477DE003F7AB1 /* questions */ = {
+			isa = PBXGroup;
+			children = (
+				352B48691B84783E003F7AB1 /* Coupons.h */,
+			);
+			name = questions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

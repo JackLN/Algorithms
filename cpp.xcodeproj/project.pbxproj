@@ -39,6 +39,7 @@
 		352B48621B7D28CB003F7AB1 /* Queue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Queue.h; path = queue/Queue.h; sourceTree = "<group>"; };
 		352B48661B835E5B003F7AB1 /* test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = test.h; sourceTree = "<group>"; };
 		352B48691B84783E003F7AB1 /* Coupons.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Coupons.h; path = questions/Coupons.h; sourceTree = "<group>"; };
+		35E184DA1BA4324300FA4BA2 /* ManyNumbersSum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ManyNumbersSum.h; path = questions/ManyNumbersSum.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +116,7 @@
 			isa = PBXGroup;
 			children = (
 				352B48691B84783E003F7AB1 /* Coupons.h */,
+				35E184DA1BA4324300FA4BA2 /* ManyNumbersSum.h */,
 			);
 			name = questions;
 			sourceTree = "<group>";
@@ -292,6 +294,7 @@
 				352B48511B74AA61003F7AB1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -12,12 +12,13 @@
 #include "first/first.h"
 #include "test.h"
 #include "../questions/Coupons.h"
+#include "../questions/ManyNumbersSum.h"
 
 int main(int argc, const char * argv[]) {
     
-    cout << Coupons(6) << endl;
+    //cout << Coupons(6) << endl;
     
+    ManyNumbersSum();
     return 0;
 }
-
 
